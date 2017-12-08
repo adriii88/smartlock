@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SmartBikeLock</string>
+    <string name="photon_name">Lock name</string>
+    <string name="lock_state_text">Lock</string>
+</resources>
