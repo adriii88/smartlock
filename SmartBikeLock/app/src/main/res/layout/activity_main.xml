@@ -44,6 +44,6 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/lock_name"
         app:layout_constraintTop_toTopOf="@+id/lock_name"
-        app:srcCompat="@drawable/unlocked" />
+        app:srcCompat="@drawable/unlocked" android:contentDescription="@string/conDescIcon" />
 
 </android.support.constraint.ConstraintLayout>
