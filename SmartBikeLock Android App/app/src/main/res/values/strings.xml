@@ -1,6 +1,15 @@
 <resources>
     <string name="app_name">SmartBikeLock</string>
-    <string name="photon_name">Lock</string>
-    <string name="lock_state_text">Lock</string>
     <string name="conDescIcon">icon_lock_status</string>
+    <string name="NOTIFICATION_TITLE">Security advice!</string>
+    <string name="NOTIFICATION_TEXT">Unauthorised opening was detected!</string>
+    <string name="statusTxtLocked">Locked</string>
+    <string name="statusTxtUnlocked">Unlocked</string>
+    <string name="statusIconBtn">Status_Icon_Btn</string>
+    <string name="AlarmSwitch">Alarm</string>
+    <string name="descr">Weather description</string>
+    <string name="locName">Location name</string>
+    <string name="temp">Temperature</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="MenuOp1">Quit</string>
 </resources>

@@ -3,10 +3,10 @@ package cat.ravnsbjerg34.smartbikelock.utils;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
-import java.sql.Timestamp;
+import cat.ravnsbjerg34.smartbikelock.models.ParticleFuncResJson;
+import cat.ravnsbjerg34.smartbikelock.models.ParticleVarResJson;
 
-import cat.ravnsbjerg34.smartbikelock.models.ParticleReqJSON;
-import cat.ravnsbjerg34.smartbikelock.models.ParticleResponse;
+import static cat.ravnsbjerg34.smartbikelock.utils.ParticleJsonParser.JsonType.Var;
 
 /**
  * Created by guillemcat on 12/10/17.
@@ -15,25 +15,16 @@ import cat.ravnsbjerg34.smartbikelock.models.ParticleResponse;
 
 public class ParticleJsonParser {
 
-    /*public static ParticleResponse parseParticleReqJSONWithGson(String jsonString){
+    public enum JsonType {Var, Func}
+
+    public static Object parseParticleResJsonWithGson(String jsonString, JsonType mode){
 
         Gson gson = new GsonBuilder().create();
-        ParticleReqJSON particleResponse =  gson.fromJson(jsonString, ParticleReqJSON.class);
-        if(particleResponse != null) {
-            return new ParticleResponse(particleResponse.id, particleResponse.last_app, particleResponse.connected, particleResponse.result);
-        } else {
-            return null;
+        if (mode == Var) {
+             return gson.fromJson(jsonString, ParticleVarResJson.class);
         }
-    }*/
-
-    public static ParticleReqJSON parseParticleReqJSONWithGson(String jsonString){
-
-        Gson gson = new GsonBuilder().create();
-        ParticleReqJSON particleResponse =  gson.fromJson(jsonString, ParticleReqJSON.class);
-        if(particleResponse != null) {
-            return particleResponse;
-        } else {
-            return null;
+        else {
+            return gson.fromJson(jsonString, ParticleFuncResJson.class);
         }
     }
 }
