@@ -13,4 +13,16 @@ According to that the new features added to the old regular lock are the followi
 
 Demonstration:
 
-   https://youtu.be/8a8B6UGK4Io
+https://youtu.be/8a8B6UGK4Io
+
+Images of the device:
+
+	
+![alt text](https://drive.google.com/file/d/1s10uGXrlBDJC-giP7TUv3LPnEKhL4g3w/view?usp=sharing)
+
+
+
+   
+   
+   
+   
