@@ -15,7 +15,7 @@ Demonstration:
 
 https://youtu.be/8a8B6UGK4Io
 
-Images of the device:
+Image of the device:
 
 	
 ![alt text](http://i67.tinypic.com/f0n782.jpg)
