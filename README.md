@@ -9,3 +9,8 @@ According to that the new features added to the old regular lock are the followi
   * A physical light to make sure that is locked/unlocked without a device
   * Knowledge of the current state of the lock
   * The ability to use the weather of the location where is placed the bike
+
+
+Demonstration:
+
+https://youtu.be/8a8B6UGK4Io
